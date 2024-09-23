@@ -112,8 +112,8 @@
             <mxPoint x="420" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RN_QL9NEiOvugv2sySSk-29" value="Связь между командами и матчами должна быть 2 to N, у команды в сезоне много матчей, а один матч играет 2 команды, но такой нет поэтому обозначил N to N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="296" y="260" width="310" height="30" as="geometry" />
+        <mxCell id="RN_QL9NEiOvugv2sySSk-29" value="Связь между командами и матчами должна быть &quot;2 to N&quot; - у команды в сезоне много матчей, а один матч играет 2 команды, но такой нет поэтому обозначил N to N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="253" y="260" width="344" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
