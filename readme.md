@@ -1,1 +1,1 @@
-Task 2 in databases course seminars.
+Tasks from second seminar in DB course.
