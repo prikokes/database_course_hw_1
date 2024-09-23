@@ -1,9 +1,120 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="JM5A0Bc0vKD0_xgvYVsC">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RN_QL9NEiOvugv2sySSk-1" value="&lt;span style=&quot;color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; text-align: start;&quot;&gt;Квартира расположена в доме на улице в городе в стране&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-2" value="Квартира" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-3" value="Дом" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-4" value="Улица" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="100" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-5" value="Город" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="100" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-6" value="Страна" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RN_QL9NEiOvugv2sySSk-3" target="RN_QL9NEiOvugv2sySSk-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RN_QL9NEiOvugv2sySSk-4" target="RN_QL9NEiOvugv2sySSk-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-12" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RN_QL9NEiOvugv2sySSk-5" target="RN_QL9NEiOvugv2sySSk-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="RN_QL9NEiOvugv2sySSk-6" target="RN_QL9NEiOvugv2sySSk-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="690" y="120" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-14" value="&lt;span style=&quot;color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; text-align: start;&quot;&gt;Две команды играют друг против друга в футбол под руководством арбитра&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="134" y="200" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-15" value="&lt;span style=&quot;color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; text-align: start;&quot;&gt;У каждого человека (мужчины и женщины) есть отец и мать&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="186" y="460" width="455" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-16" value="Человек" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-17" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;curved=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1.017;exitY=0.883;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RN_QL9NEiOvugv2sySSk-16" target="RN_QL9NEiOvugv2sySSk-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="200" y="540" as="sourcePoint" />
+            <mxPoint x="300" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="487" y="570" />
+              <mxPoint x="620" y="570" />
+              <mxPoint x="620" y="530" />
+              <mxPoint x="485" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-18" value="мать" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RN_QL9NEiOvugv2sySSk-17">
+          <mxGeometry x="0.0159" y="-1" relative="1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-19" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;curved=1;entryX=0.008;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RN_QL9NEiOvugv2sySSk-16" target="RN_QL9NEiOvugv2sySSk-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="343" y="535" as="sourcePoint" />
+            <mxPoint x="325.96000000000004" y="574" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="343" y="525" />
+              <mxPoint x="343" y="520" />
+              <mxPoint x="253" y="520" />
+              <mxPoint x="253" y="570" />
+              <mxPoint x="320" y="570" />
+              <mxPoint x="320" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-20" value="отец" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RN_QL9NEiOvugv2sySSk-19">
+          <mxGeometry x="-0.3651" y="-1" relative="1" as="geometry">
+            <mxPoint x="-50" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-21" value="Матч" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-22" value="Команда&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-24" value="Арбитр" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1" source="RN_QL9NEiOvugv2sySSk-21" target="RN_QL9NEiOvugv2sySSk-24">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-27" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RN_QL9NEiOvugv2sySSk-22" target="RN_QL9NEiOvugv2sySSk-21">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="350" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RN_QL9NEiOvugv2sySSk-29" value="Связь между командами и матчами должна быть 2 to N, у команды в сезоне много матчей, а один матч играет 2 команды, но такой нет поэтому обозначил N to N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="296" y="260" width="310" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
